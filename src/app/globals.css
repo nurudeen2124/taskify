@@ -78,6 +78,8 @@
 }
 
 :root {
+  --font-geist-sans: 'Geist', system-ui, sans-serif;
+  --font-geist-mono: 'Geist Mono', 'Courier New', monospace;
   --radius: 0.75rem;
   /* shadcn defaults */
   --background: oklch(0.98 0.005 290);
