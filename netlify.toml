@@ -1,0 +1,9 @@
+[build]
+  command = "npx prisma generate && next build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build.environment]
+  NEXT_FONT_GOOGLE_MOCKED_RESPONSES = "true"
