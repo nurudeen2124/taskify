@@ -6,4 +6,5 @@
   package = "@netlify/plugin-nextjs"
 
 [build.environment]
+  NEXT_DISABLE_TURBOPACK = "1"
   NEXT_FONT_GOOGLE_MOCKED_RESPONSES = "true"
