@@ -1,5 +1,4 @@
 [build]
-[build]
   command = "npx prisma db push && npx prisma generate && next build"
   publish = ".next"
 
